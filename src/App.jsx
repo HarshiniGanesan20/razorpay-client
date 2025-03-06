@@ -18,7 +18,7 @@ function App() {
 
   ]
 
-  const serverURL = "http://localhost:5001/api/payment"
+  const serverURL = "https://razorpay-server-production.up.railway.app/api/payment"
 
   const handleClick = async () => {
     const { data } = await axios.post(`${serverURL}/orders`, { amount: products[0].price })
