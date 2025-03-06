@@ -1,0 +1,85 @@
+*{
+  padding: 0%;
+  margin: 0%;
+}
+
+.container{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.card {
+  width: 300px;
+  padding: 15px;
+  text-align: left;
+  background-color: #fff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+  transition: box-shadow 0.3s ease-in-out;
+}
+.card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+}
+.card-details img {
+  width: 100%;
+  height: auto; 
+  display: block; 
+  object-fit: cover; 
+}
+h2{
+  color: rgb(41, 41, 41);
+  margin-top: 20px;
+  font-size: 18px;
+}
+.star{
+  margin-top: 5px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+.star p {
+  color: black;
+}
+
+.star i{
+  color: #de7921;
+}
+
+.price-details{
+  margin-top: 5px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+del{
+  padding-left: 5px;
+  color: brown;
+}
+
+.btn{
+  margin-top: 20px;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  font-size: 16px;
+  color: white;
+  background-color: #943f15;
+  cursor: pointer;
+}
+.btn:hover{
+  background-color: #be521c;
+}
+
+.desp
+{
+  margin-top: 5px;
+  color:rgb(95, 95, 95)
+}
+.brand{
+  margin-top: 5px;
+  color: rgb(9, 112, 9);
+}
